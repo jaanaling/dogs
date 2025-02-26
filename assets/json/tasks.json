@@ -1,0 +1,402 @@
+[
+  {
+    "id": "task01",
+    "title": "Feed the dog",
+    "daysToComplete": 1,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 1
+  },
+  {
+    "id": "task02",
+    "title": "Walk the dog",
+    "daysToComplete": 1,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 1
+  },
+  {
+    "id": "task03",
+    "title": "Give water to the dog",
+    "daysToComplete": 1,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 1
+  },
+  {
+    "id": "task04",
+    "title": "Check for fleas",
+    "daysToComplete": 7,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 7
+  },
+  {
+    "id": "task05",
+    "title": "Clean the dog's bed",
+    "daysToComplete": 3,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 3
+  },
+  {
+    "id": "task06",
+    "title": "Brush the dog's fur",
+    "daysToComplete": 2,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 2
+  },
+  {
+    "id": "task07",
+    "title": "Check dog's paws for injuries",
+    "daysToComplete": 5,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 5
+  },
+  {
+    "id": "task08",
+    "title": "Give the dog a bath",
+    "daysToComplete": 7,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 7
+  },
+  {
+    "id": "task09",
+    "title": "Trim dog's nails",
+    "daysToComplete": 14,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 14
+  },
+  {
+    "id": "task10",
+    "title": "Inspect the dog for ticks",
+    "daysToComplete": 7,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 7
+  },
+  {
+    "id": "task11",
+    "title": "Play with the dog",
+    "daysToComplete": 1,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 1
+  },
+  {
+    "id": "task12",
+    "title": "Take the dog to the vet",
+    "daysToComplete": 30,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 30
+  },
+  {
+    "id": "task13",
+    "title": "Give the dog medicine",
+    "daysToComplete": 1,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 1
+  },
+  {
+    "id": "task14",
+    "title": "Clean the dog's toys",
+    "daysToComplete": 7,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 7
+  },
+  {
+    "id": "task15",
+    "title": "Check the dog's food and water bowls",
+    "daysToComplete": 1,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 1
+  },
+  {
+    "id": "task16",
+    "title": "Train the dog with basic commands",
+    "daysToComplete": 3,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 3
+  },
+  {
+    "id": "task17",
+    "title": "Give the dog a treat",
+    "daysToComplete": 1,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 1
+  },
+  {
+    "id": "task18",
+    "title": "Check the dog's collar",
+    "daysToComplete": 7,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 7
+  },
+  {
+    "id": "task19",
+    "title": "Take the dog to the park",
+    "daysToComplete": 2,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 2
+  },
+  {
+    "id": "task20",
+    "title": "Monitor the dog's weight",
+    "daysToComplete": 7,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 7
+  },
+  {
+    "id": "task21",
+    "title": "Check the dog's teeth",
+    "daysToComplete": 14,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 14
+  },
+  {
+    "id": "task22",
+    "title": "Provide a comfortable resting spot",
+    "daysToComplete": 1,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 1
+  },
+  {
+    "id": "task23",
+    "title": "Inspect the dog's ears",
+    "daysToComplete": 7,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 7
+  },
+  {
+    "id": "task24",
+    "title": "Take the dog for a car ride",
+    "daysToComplete": 14,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 14
+  },
+  {
+    "id": "task25",
+    "title": "Monitor the dog's health for signs of illness",
+    "daysToComplete": 1,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 1
+  },
+  {
+    "id": "task26",
+    "title": "Clean the dog's ears",
+    "daysToComplete": 7,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 7
+  },
+  {
+    "id": "task27",
+    "title": "Change the dog's bedding",
+    "daysToComplete": 3,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 3
+  },
+  {
+    "id": "task28",
+    "title": "Check the dog's hydration levels",
+    "daysToComplete": 1,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 1
+  },
+  {
+    "id": "task29",
+    "title": "Keep the dog's nails trimmed",
+    "daysToComplete": 14,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 14
+  },
+  {
+    "id": "task30",
+    "title": "Check the dog's health insurance",
+    "daysToComplete": 30,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 30
+  },
+  {
+    "id": "task31",
+    "title": "Replenish the dog's food supply",
+    "daysToComplete": 7,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 7
+  },
+  {
+    "id": "task32",
+    "title": "Check the dog's water supply",
+    "daysToComplete": 1,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 1
+  },
+  {
+    "id": "task33",
+    "title": "Give the dog a mental stimulation game",
+    "daysToComplete": 1,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 1
+  },
+  {
+    "id": "task34",
+    "title": "Play fetch with the dog",
+    "daysToComplete": 2,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 2
+  },
+  {
+    "id": "task35",
+    "title": "Give the dog a dental chew",
+    "daysToComplete": 3,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 3
+  },
+  {
+    "id": "task36",
+    "title": "Provide socialization opportunities for the dog",
+    "daysToComplete": 7,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 7
+  },
+  {
+    "id": "task37",
+    "title": "Monitor the dog's behavior for unusual signs",
+    "daysToComplete": 1,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 1
+  },
+  {
+    "id": "task38",
+    "title": "Ensure the dog has enough exercise",
+    "daysToComplete": 1,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 1
+  },
+  {
+    "id": "task39",
+    "title": "Organize the dog's grooming supplies",
+    "daysToComplete": 14,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 14
+  },
+  {
+    "id": "task40",
+    "title": "Check the dog's microchip information",
+    "daysToComplete": 30,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 30
+  },
+  {
+    "id": "task41",
+    "title": "Monitor the dog's vaccinations",
+    "daysToComplete": 30,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 30
+  },
+  {
+    "id": "task42",
+    "title": "Check the dog's skin for irritations",
+    "daysToComplete": 7,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 7
+  },
+  {
+    "id": "task43",
+    "title": "Clean the dog's food and water dishes",
+    "daysToComplete": 2,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 2
+  },
+  {
+    "id": "task44",
+    "title": "Arrange for a dog sitter",
+    "daysToComplete": 7,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 7
+  },
+  {
+    "id": "task45",
+    "title": "Replenish dog grooming products",
+    "daysToComplete": 30,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 30
+  },
+  {
+    "id": "task46",
+    "title": "Teach the dog new tricks",
+    "daysToComplete": 7,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 7
+  },
+  {
+    "id": "task47",
+    "title": "Keep the dog's vaccination record updated",
+    "daysToComplete": 30,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 30
+  },
+  {
+    "id": "task48",
+    "title": "Inspect the dog's food for freshness",
+    "daysToComplete": 7,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 7
+  },
+  {
+    "id": "task49",
+    "title": "Prepare the dog's travel bag for trips",
+    "daysToComplete": 7,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 7
+  },
+  {
+    "id": "task50",
+    "title": "Provide a safe and clean outdoor space",
+    "daysToComplete": 7,
+    "finishDate": null,
+    "isPeriodic": true,
+    "periodicityDays": 7
+  }
+]
