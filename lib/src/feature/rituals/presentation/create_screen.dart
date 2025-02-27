@@ -335,6 +335,10 @@ class AppTextField extends StatelessWidget {
           focusNode: focusNode,
           controller: controller,
           keyboardType: keyboardType,
+          onTapOutside: (event) {
+            if (focusNode == null) {
+            FocusScope.of(context).unfocus();}
+          },
           style: TextStyle(fontSize: 24, fontFamily: "Bur", color: const Color.fromARGB(255, 63, 58, 16)),
           textAlign: TextAlign.center,
           padding: EdgeInsets.symmetric(vertical:getWidth(context,baseSize: 18)),
@@ -401,22 +405,21 @@ class _TextFieldWithDropdownState extends State<TextFieldWithDropdown> {
     var size = renderBox.size;
 
     return OverlayEntry(
-      builder: (context) => Positioned(
+      builder: (context) => Container(
         width: size.width,
         child: CompositedTransformFollower(
           link: _layerLink,
           offset: Offset(0, size.height + 5),
-          child: Positioned(
-            left: renderBox.localToGlobal(Offset.zero).dx,
-            top: renderBox.localToGlobal(Offset(0, size.height + 5)).dy,
-            child: Container(
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: AssetImage(IconProvider.mainPlane.buildImageUrl()),
-                  fit: BoxFit.fill,
-                ),
+          child: Container(
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage(IconProvider.mainPlane.buildImageUrl()),
+                fit: BoxFit.fill,
               ),
-              constraints: BoxConstraints(maxHeight: 190),
+            ),
+            constraints: BoxConstraints(maxHeight: 190),
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
               child: ListView.separated(
                 shrinkWrap: true,
                 itemCount: _filteredItems.length,
