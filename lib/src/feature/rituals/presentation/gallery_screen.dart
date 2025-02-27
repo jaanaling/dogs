@@ -42,8 +42,8 @@ class GalleryScreen extends StatelessWidget {
               children: [
                 Expanded(
                   child: GridView.builder(
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 16, vertical: 140),
+                    padding:  EdgeInsets.symmetric(
+                        horizontal: 16, vertical: getWidth(context,baseSize: 140)),
                     itemCount: item.gallery.length + 1,
                     gridDelegate:
                         const SliverGridDelegateWithFixedCrossAxisCount(

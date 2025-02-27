@@ -131,7 +131,7 @@ class _CreateScreenState extends State<CreateScreen> {
                           ),
                           child: Padding(
                             padding:
-                                EdgeInsets.all(imageForm == null ? 18.0 : 0),
+                                EdgeInsets.all(imageForm == null ?  getWidth(context, baseSize: 18.0)  : 0),
                             child: AppIcon(
                               asset: imageForm ??
                                   IconProvider.photo.buildImageUrl(),
@@ -175,13 +175,13 @@ class _CreateScreenState extends State<CreateScreen> {
                             ),
                           ),
                           child: Padding(
-                            padding: const EdgeInsets.all(18.0),
+                            padding:  EdgeInsets.all(getWidth(context,baseSize: 18)),
                             child: AppIcon(
                               asset: gender == 'male'
                                   ? IconProvider.male.buildImageUrl()
                                   : IconProvider.female.buildImageUrl(),
                               fit: BoxFit.cover,
-                              width: 40,
+                              width: getWidth(context,baseSize: 40),
                             ),
                           ),
                         ),
@@ -328,7 +328,7 @@ class AppTextField extends StatelessWidget {
         TextWithBorder(
           title,
           textAlign: TextAlign.center,
-          fontSize: 35,
+          fontSize: getWidth(context,baseSize: 30),
         ),
         const SizedBox(height: 8),
         CupertinoTextField(
@@ -337,7 +337,7 @@ class AppTextField extends StatelessWidget {
           keyboardType: keyboardType,
           style: TextStyle(fontSize: 24, fontFamily: "Bur", color: const Color.fromARGB(255, 63, 58, 16)),
           textAlign: TextAlign.center,
-          padding: EdgeInsets.symmetric(vertical: 16),
+          padding: EdgeInsets.symmetric(vertical:getWidth(context,baseSize: 18)),
           decoration: BoxDecoration(
             image: DecorationImage(
               image: AssetImage(keyboardType == TextInputType.number

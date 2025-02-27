@@ -26,7 +26,7 @@ class AddButton extends StatelessWidget {
         
         ),
         child: Padding(
-          padding: const EdgeInsets.all(24.0),
+          padding:  EdgeInsets.all(getWidth(context, baseSize: 24)),
           child: AppIcon(
             asset: IconProvider.plus.buildImageUrl(),
             width: getWidth(context, baseSize: 60),

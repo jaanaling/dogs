@@ -3,6 +3,8 @@ import 'package:happy_dog_house/src/core/utils/text_with_border.dart';
 import 'package:happy_dog_house/ui_kit/animated_button.dart';
 import 'package:flutter/cupertino.dart';
 
+import '../src/core/utils/size_utils.dart';
+
 class AppButton extends StatelessWidget {
   final BColor color;
   final VoidCallback onPressed;
@@ -24,7 +26,7 @@ class AppButton extends StatelessWidget {
     return AnimatedButton(
       onPressed: onPressed,
       child: Container(
-        width: width,
+        width: isIpad(context)? (width ?? 1) * 0.5: width,
         decoration: BoxDecoration(
           image: DecorationImage(
             fit: BoxFit.fill,

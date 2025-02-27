@@ -27,7 +27,9 @@
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
+	<string>Main</string><key>NSUserTrackingUsageDescription</key>
+                         	<string>Collecting your information helps us personalize ads and improve your experience. This enables us to better match your preferences and evaluate the effectiveness of our ads.</string>
+
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

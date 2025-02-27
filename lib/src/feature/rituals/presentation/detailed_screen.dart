@@ -42,7 +42,7 @@ class _DetailedScreenState extends State<DetailedScreen> {
               children: [
                 Expanded(
                   child: SingleChildScrollView(
-                    padding: const EdgeInsets.fromLTRB(16, 140, 16, 180),
+                    padding:  EdgeInsets.fromLTRB(16, getWidth(context,baseSize: 140), 16, 180),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [

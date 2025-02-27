@@ -31,7 +31,7 @@ class AppAppBar extends StatelessWidget {
                 ),
               ),
               child: Padding(
-                padding: const EdgeInsets.all(16),
+                padding:  EdgeInsets.all(getWidth(context,baseSize: 16)),
                 child: AppIcon(
                   asset: IconProvider.back.buildImageUrl(),
                   width:  getWidth(context, baseSize: 40),
